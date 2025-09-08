@@ -1,0 +1,127 @@
+body.dark{
+    background-color: rgb(38, 35, 35);
+    color: rgb(253, 253, 249);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(140, 53, 16, 0.992);
+}
+
+h2{
+    margin: 20px
+}
+
+
+form{
+    
+    margin: 20px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 12px;
+
+  
+}
+
+form h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.faq {
+  max-width: 600px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  border: none;
+  border-radius: 12px;
+
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s;
+  
+}
+
+.faq-question:hover {
+  background: aquamarine;
+}
+
+.faq-answer {
+  display: none; 
+  padding: 0 1rem 1rem;
+}
+
+.card {
+  width: 500px;
+  height:fit-content;
+  margin: 20px;             
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.cardHeader {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.textarea {
+  width: 100%;                   
+  min-height: 10px;              
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  resize: vertical;               
+  box-sizing: border-box;          
+  margin-top: 1rem;
+}
+
+.cardButton {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+
+footer {
+  background: rgba(140, 53, 16, 0.992);
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  max-height: fit-content;
+  margin-bottom: 0%;
+}
+
+
+

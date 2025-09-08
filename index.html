@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript interactivity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>CAR HUB</h1>
+        <p>Welcome to CarHub. See what we have to offer</p>
+        <hr>
+        <button onclick="toggleTheme()">change Theme</button>
+
+    </header>
+    <main>
+          
+        <!--form validation-->
+        <form id="myForm" onsubmit="return validateForm()">
+            <h2 class="formHead"> Register here! </h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <span id="usernameError" class="error"></span>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span id="emailError" class="error"></span>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span id="passwordError" class="error"></span>
+            <br><br>
+            <button type="submit"> Submit</button>
+        </form>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">What is your return policy?</button>
+                <div class="faq-answer">
+                <p>You can return items within 30 days of purchase for a full refund.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Do you ship internationally?</button>
+                <div class="faq-answer">
+                <p>Yes, we ship worldwide with standard and express options.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">How can I track my order?</button>
+                <div class="faq-answer">
+                <p>You’ll receive a tracking link by email once your order is shipped.</p>
+                </div>
+            </div>
+        </section>
+        <!--event handling-->
+        <div class="card">
+            <h3 class="cardHeader">We value your feedback</h3>
+            <p class="cardText">Share your thoughts with us</p>
+            <br><br>
+            <textarea id="myTextArea" rows="4" cols="50" placeholder="Type something..."></textarea>
+            <br><br>
+            <button class="cardButton">Submit</button>
+        </div>
+    </main>
+    <footer>
+        <p>Vroom for Visiting</p>
+        <p>&copy; 2025 CarHub</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
